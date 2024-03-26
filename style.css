@@ -1,0 +1,40 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    height: 100vh;
+    background: linear-gradient(45deg, #000000, #552121);
+}
+
+#dicepng {
+    display: block;
+    margin: 0 auto 20px;
+    height: 200px;
+    border: solid;
+    border-color: rgb(124, 19, 19);
+    border-radius: 20px;
+    padding: 25px 25px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.Label {
+    font-size: 3em;
+    color: #ff0000;
+    text-shadow: 6px 10px 5px black;
+    margin-bottom: 10px;
+}
+
+.slideleft {
+    animation: slideleft 1s ease-in-out forwards;
+}
+
+@keyframes slideleft {
+    from {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
